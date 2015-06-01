@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+﻿<!DOCTYPE html> 
 <html>
 <head>
 <meta charset="utf-8">
@@ -42,7 +42,7 @@
 	options.params = params;
 
 	var ft = new FileTransfer();
-	ft.upload(foto,"http://itslmoviles.260mb.net/subirArchivo/upload.php",function(r){		
+	ft.upload(foto,"http://http://andrea92.260mb.net/subirArchivo/upload.php",function(r){		
 		navigator.notification.confirm("El archivo: "+r.response,null, "Notificacion");
 	}, function(err){
 		navigator.notification.alert("Error: "+err.code,null, "Error de Envío");
